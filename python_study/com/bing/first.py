@@ -48,5 +48,5 @@ if __name__ == '__main__':
     myobj = myclass(age = 18,name= 'bing')##根据名字匹配，而不是顺序
     print myobj.age;
     myobj.get_age()
-    myobj.testException(12)  #测试异常  
+    myobj.testException(12)   #测试异常  
     
