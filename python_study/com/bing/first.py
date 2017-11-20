@@ -10,7 +10,7 @@ Input:      inX: vector to compare to existing dataset (1xN)
             
 Output:     the most popular class label
 
-@author: pbharrin
+@author: bing
 '''
 import kNN;
 import requests
@@ -32,6 +32,7 @@ class myclass():
 class NumException():
     def _init_(self):
         print 'exception'
+        
 if __name__ == '__main__':
     group, labels = kNN.createDataSet()
     result = kNN.classify0([1,3], group, labels, 3)
